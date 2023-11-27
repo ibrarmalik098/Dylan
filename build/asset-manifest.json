@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b137b5c.css",
+    "main.js": "/static/js/main.3e3c2916.js",
+    "static/js/787.78c91e08.chunk.js": "/static/js/787.78c91e08.chunk.js",
+    "static/media/back_profile.png": "/static/media/back_profile.1a3d4d6522005a53723c.png",
+    "static/media/Frame 60.png": "/static/media/Frame 60.0424603b66a775190d62.png",
+    "static/media/Frame 59.png": "/static/media/Frame 59.f3e8d49f8ac33afb4f91.png",
+    "static/media/Frame 61.png": "/static/media/Frame 61.3088a67129623b8dedbe.png",
+    "static/media/Rectangle 19.png": "/static/media/Rectangle 19.03e9f93c207023e8197b.png",
+    "static/media/Frame 63.png": "/static/media/Frame 63.596bad61246b8a4ccb04.png",
+    "static/media/Frame 67.png": "/static/media/Frame 67.71facd1aa1205cb0b3ab.png",
+    "static/media/Rajdhani-SemiBold.ttf": "/static/media/Rajdhani-SemiBold.7d928c2670caba5b9dd6.ttf",
+    "static/media/background.png": "/static/media/background.9f8b5db3bb6f276df1a8.png",
+    "static/media/Frame 68.png": "/static/media/Frame 68.0e79e61ea7cd0f928969.png",
+    "static/media/logo.png": "/static/media/logo.45db776f000298e49c01.png",
+    "static/media/carousel.png": "/static/media/carousel.b362837d6638f1e4dbdf.png",
+    "static/media/Group 23.png": "/static/media/Group 23.b8ded575c131131fce0f.png",
+    "static/media/Frame 65.png": "/static/media/Frame 65.8cd073c87ded64c03b81.png",
+    "static/media/logo_new.png": "/static/media/logo_new.a7c0b435b28f8e017b30.png",
+    "static/media/Frame 75.png": "/static/media/Frame 75.9eda8d76986c68387b03.png",
+    "static/media/login_img.png": "/static/media/login_img.aa0c65770df117d2264f.png",
+    "index.html": "/index.html",
+    "main.3b137b5c.css.map": "/static/css/main.3b137b5c.css.map",
+    "main.3e3c2916.js.map": "/static/js/main.3e3c2916.js.map",
+    "787.78c91e08.chunk.js.map": "/static/js/787.78c91e08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b137b5c.css",
+    "static/js/main.3e3c2916.js"
+  ]
+}

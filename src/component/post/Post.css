@@ -1,0 +1,56 @@
+.post-container {
+  /* background-color: white; */
+
+  margin-top: 20px;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.upvote-button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  /* background: #fe9316; */
+  /* border-color: #fe9316; */
+  border-width: 1px;
+  width: 174px;
+  /* color: #fe9316; */
+  cursor: pointer;
+}
+.upvote-button:hover {
+  background: #fe9316;
+  border: 1px solid white;
+  color: white;
+}
+.upvote-button:hover .count {
+  background-color: white;
+  color: #fe9316;
+}
+
+.icon {
+  padding: 5px;
+  cursor: pointer;
+}
+.text {
+  font-size: 15px;
+}
+
+.count {
+  margin-left: auto;
+  /* background-color: #fe9316; */
+  padding: 7px 14px;
+
+  border-radius: 5px;
+  /* color: white; */
+  margin-right: 1px;
+}
+
+@media (max-width: 700px) {
+  .upvote-button {
+    width: 140px;
+  }
+}

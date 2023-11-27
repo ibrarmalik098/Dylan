@@ -1,0 +1,44 @@
+.time-picker-container {
+    text-align: center;
+  }
+  
+  .time-picker {
+    margin-bottom: 20px;
+  }
+  
+  .time-input {
+    /* margin-right: 10px; */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .selected-times {
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    gap: 1px;
+    flex-direction: row;
+    margin-top: 5px;
+
+  }
+
+  .attachment-icon_time {
+    margin-top: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .attachment-icon_time i {
+    color: #666;
+  }
+  .send_time {
+    display: flex;
+    align-items: center;
+    gap: 0.5em; 
+  }
+  .imgAttachment_time {
+    cursor: pointer;
+  }
+  

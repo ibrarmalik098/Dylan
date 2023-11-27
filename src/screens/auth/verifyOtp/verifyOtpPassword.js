@@ -1,0 +1,126 @@
+import React, { useEffect, useState } from "react";
+import { main_color } from "../../../utils/color";
+import { Container, Grid, Stack } from "@mui/material";
+import "../auth.css";
+import Btn from "../../../component/button/Button";
+import { useNavigate } from "react-router-dom";
+import OtpInput from "react-otp-input";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  resend_otp_async,
+  reset_password_verify_otp_async,
+} from "../../../services/authService";
+import { asyncStatus } from "../../../utils/async_status";
+import { hideEmailMethod } from "../../../utils/common/hide_email";
+import logo from '../../../assets/logo.png'
+
+const VerifyOtpPassword = () => {
+  const navigation = useNavigate();
+  const dispatch = useDispatch();
+
+  // const { reset_otp_status, forgot_data } = useSelector(
+  //   (state) => state.authSlice
+  // );
+
+  const [otp, setOtp] = useState();
+  // console.log(forgot_data?.email);
+
+  const verifyHandle = () => {
+    navigation("/resetPassword")
+    // dispatch(
+    //   reset_password_verify_otp_async({
+    //     email: forgot_data?.email,
+    //     otp: otp,
+    //   })
+    // );
+  };
+
+  // useEffect(() => {
+  //   if (reset_otp_status === asyncStatus.SUCCEEDED) {
+  //     navigation("/resetPassword");
+  //   }
+  // }, [, reset_otp_status]);
+
+  return (
+    <Stack
+      sx={{
+        // backgroundColor: main_color,
+        height: { md: "130vh", lg: "130vh", sm: "110vh", xs: "110vh" },
+      }}
+      className="main_container"
+    >
+      <Container maxWidth={"sm"} sx={{ p: { md: 5, lg: 5, sm: 2, xs: 2 } }}>
+        <Stack
+          sx={{
+            // backgroundColor: "#FFFFFF",
+            p: { md: 5, lg: 5, sm: 2, xs: 2 },
+            borderRadius: {md:"20px",lg:"20px",sm:"20px",xs:"20px"},
+            mt: 2,
+          }}
+          className="blur-container"
+
+        >
+          <Stack sx={{ justifyContent: 'center', alignItems: 'center' }}>
+          <img width={150} height={150} src={logo} />
+          </Stack>
+          <Stack className="title">OTP Verification</Stack>
+          <Stack
+            flexDirection={"row"}
+            // alignItems={"center"}
+            // textAlign={"center"}
+            // justifyContent={"center"}
+          >
+            <Stack sx={{ color: "#686868",textAlign:'start',fontSize:10 }}>
+              Enter the OTP you received at test*****gmail.com
+            </Stack>
+            {/* <Stack
+              className="otp_sub"
+              sx={{ color: "black", ml: 0.3, fontWeight: "bold" }}
+            >
+              {hideEmailMethod(forgot_data?.email)}
+            </Stack> */}
+          </Stack>
+          <Stack mt={2}>
+            <Grid container spacing={0}>
+              <Grid item md={12} lg={12} sm={12} xs={12}>
+                <Stack alignItems={"center"}>
+                  <OtpInput
+                    isInputNum={true}
+                    value={otp}
+                    inputStyle={"otp"}
+                    onChange={(e) => setOtp(e)}
+                    numInputs={4}
+                    renderSeparator={<span>&nbsp; &nbsp;</span>}
+                    renderInput={(props) => <input {...props} />}
+                  />
+                </Stack>
+              </Grid>
+              <Grid item md={12} lg={12} sm={12} xs={12} mt={4}>
+                <Btn
+                  // loading={reset_otp_status === asyncStatus.LOADING}
+                  onClick={() => verifyHandle()}
+                  label={"Verify"}
+                  // fullWidth={true}
+                  style={{
+                    padding: "10px",
+                    backgroundColor: main_color,
+                    borderRadius: "8px",
+                    mt: 6,
+                    width: '100%',
+                    border: 'none',
+                    outline: 'none',
+                    color: 'white',
+                    cursor: 'pointer'
+
+                  }}
+                />
+              </Grid>
+            </Grid>
+          </Stack>
+        </Stack>
+      </Container>
+    </Stack>
+  );
+};
+
+export default VerifyOtpPassword;

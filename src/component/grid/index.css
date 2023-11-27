@@ -1,0 +1,148 @@
+.back_img_sec2 {
+    background-image: url('../../assets//img/Frame\ 63.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.last_back_img {
+    background-image: url('../../assets//img/Rectangle\ 19.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.our-titel {
+    color: #002758;
+    font-family: system-ui;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: 45px;
+    text-align: center;
+}
+
+.our-titel-para {
+    color: #333;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px 270px 20px 270px;
+}
+
+.sec2-titel {
+    color: #B22234;
+    font-family: system-ui;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.sec2_titel_heading {
+    color: #002758;
+    font-family: system-ui;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* padding: 0px 0px 10px 0px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.sec2_titel_sub_data {
+    color: #333;
+    font-family: system-ui;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sec2_flex_card {
+    display: flex;
+    flex: 0 0 auto;
+    width: 100%;
+    background-color: red;
+    flex-direction: row;
+}
+
+.lat_sec_heafing {
+    color: #fff;
+    font-family: system-ui;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 20px;
+}
+
+.lat_sec_para {
+    color: #fff;
+    font-family: system-ui;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 37px; */
+}
+
+.lat_sec_points {
+    color: #fff;
+    font-family: system-ui;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    /* line-height: 37px; */
+}
+
+@media (max-width:800px) {
+    .our-titel {
+        font-size: 30px;
+    }
+
+    .our-titel-para {
+        padding: 10px 148px 20px 134px;
+    }
+}
+
+@media (max-width:530px) {
+
+    .our-titel-para {
+        padding: 10px 34px 20px 34px;
+    }
+
+    .sec2-tite {
+        font-size: 20px;
+    }
+
+    .sec2_titel_heading {
+        font-size: 25px;
+
+    }
+
+    .sec2_titel_sub_data {
+        font-size: 13px;
+        line-height: 16px;
+
+    }
+
+    .lat_sec_heafing {
+        font-size: 35px;
+    }
+
+    .lat_sec_para {
+        font-size: 13px;
+    }
+
+    .lat_sec_points {
+        font-size: 13px;
+    }
+}

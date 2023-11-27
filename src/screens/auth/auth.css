@@ -1,0 +1,130 @@
+/* login */
+
+.heading {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sub_heading {
+  font-size: 32px;
+  font-weight: 400;
+  color: lightgray;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333333;
+}
+
+/* login */
+.otp_heading {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.otp_sub {
+  /* text-align: center; */
+}
+
+.otp {
+  width: 40px !important;
+  /* outline: none;
+  border: none; */
+  height: 40px;
+  font-size: 2em;
+  color: #0d4587;
+  border-radius: 6px;
+  border: 1px solid #a1a1a1;
+  background-color: transparent;
+}
+
+
+.testing{
+  background-color: red;
+  
+}
+
+
+
+.main_container {
+  background-image: url('../../assets/background.png');
+  height: 100%;
+  /* max-height: 120vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.blur-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+  /* Apply the blur effect */
+  backdrop-filter: blur(10px);
+  height: 100%;
+  position: relative;
+}
+
+.set_role_class {
+
+  transform: rotate(-90deg);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1px black;
+  opacity: 0.1;
+  font-family: Rajdhani;
+  font-size: 133px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105px;
+  /* 55% */
+  position: absolute;
+  /* left: -210px;
+  top: 214px; */
+
+  /* 55% */
+}
+
+.placeholder_class {
+  width: 95%;
+}
+
+.placeholder_class::placeholder {
+
+  opacity: 0.5;
+  font-size: 10px;
+}
+
+
+@media screen and (max-width: 850px) {
+  .showBox {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  /* .set_role_class {
+    font-size: 75px;
+    left: -116px;
+  } */
+
+  /* .placeholder_class{
+    width: 85%;
+  } */
+  .placeholder_class::placeholder {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  /* .set_role_class {
+    font-size: 50px;
+    left: -79px;
+  } */
+
+}

@@ -1,0 +1,28 @@
+.container_side_bar {
+  width: 285px;
+  /* height: 539px;*/
+  /* flex-shrink: 0; */
+  padding: 25px 10px;
+  /* background-color: white; */
+}
+.add_feed {
+  /* color: #000; */
+  /* font-size: 16px; */
+  font-weight: bolder;
+  text-align: start;
+  /* line-height: normal; */
+}
+.person_name {
+  color: #000;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.profession_name {
+  color: #767676;
+  font-size: 10.324px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

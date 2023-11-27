@@ -1,0 +1,91 @@
+.inputStyle {
+  font-size: 13px;
+  /* padding: 10px 10px 10px 10px; */
+  border: none;
+  outline: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.384);
+}
+
+.inputStyle::placeholder {
+  color: #707070;
+}
+
+.commentinputStyle {
+  font-size: 16px;
+  padding: 10px 10px 10px 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.384);
+  /* width: 100%; */
+}
+
+.commentinputStyle::placeholder {
+  color: #707070;
+}
+
+.inputForAddCart {
+  /* padding: 10px 10px 10px 10px;
+  border: 0.5px solid rgba(0, 0, 0, 0.384);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  width: 100%; */
+  width: 100%;
+  padding: 15px 65px 15px 15px;
+  color: #AEA8A8;
+  font-family: system-ui;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 15px;
+  background: transparent;
+  border: 3px solid #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.footer-btn_button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 25px;
+}
+
+.inputinner {
+  font-size: 16px;
+  /* padding: 10px 10px 10px 10px; */
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  color: white;
+}
+
+.inputinner::placeholder {
+  color: lightgray;
+  font-size: 16px;
+}
+
+/* @media (max-width: 700px) {
+  .commentinputStyle {
+    width: 250px;
+  }
+  .Comment_text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  .commentinputStyle {
+    width: 200px;
+  }
+}
+@media (max-width: 400px) {
+  .commentinputStyle {
+    width: 150px;
+  }
+}
+@media (max-width: 350px) {
+  .commentinputStyle {
+    width: 100px;
+  }
+} */

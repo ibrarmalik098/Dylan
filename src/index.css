@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Rajdhani', sans-serif";
+  src: url("assets/fonts/Rajdhani/Rajdhani-SemiBold.ttf")
+    format("woff2");
+    /* font-family: 'Rajdhani', sans-serif; */
+
+
+  /* url("path/to/font.woff") format("woff"); */
+  /* Add additional formats if necessary */
+}
+* {
+  font-family: Rajdhani ;
+}
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.scroll-remove::-webkit-scrollbar {
+  display: none;
+}
